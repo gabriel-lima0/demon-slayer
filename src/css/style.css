@@ -57,7 +57,7 @@ main {
     margin-bottom: 5px;
 }
 
-.cartao-personagem .tipo {
+.cartao-personagem .respiracao {
     background-color: #FFFFFF;
     opacity: 0.7;
     border-radius: 10px;
@@ -100,28 +100,28 @@ main {
 }
 
 
-/* TIPOS */
-.tipo-eletrico {
+/* respiracaoS */
+.respiracao-eletrico {
     background-color: #fcc719;
 }
 
-.tipo-fogo {
+.respiracao-fogo {
     background-color: #f15000d2;
 }
 
-.tipo-agua {
+.respiracao-agua {
     background-color: #015C98;
 }
 
-.tipo-grama {
+.respiracao-grama {
     background-color: #49D0B0;
 }
 
-.tipo-trevas {
+.respiracao-trevas {
     background-color: #BA68C8;
 }
 
-.tipo-fada {
+.respiracao-fada {
     background-color: #C29791;
 }
 
