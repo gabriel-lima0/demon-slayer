@@ -45,8 +45,10 @@ main {
 
 .cartao-personagem img {
     width: 100%;
-    height: 100%;
+    max-height: 400px;
     margin-top: -20px;
+    /* align-content: center; */
+    
 }
 
 .cartao-personagem .cartao-topo {
@@ -101,28 +103,36 @@ main {
 
 
 /* respiracaoS */
-.respiracao-eletrico {
+.respiracao-trovao {
     background-color: #fcc719;
 }
 
 .respiracao-fogo {
-    background-color: #f15000d2;
+    background-color: #f13000d2;
 }
 
 .respiracao-agua {
     background-color: #015C98;
 }
 
-.respiracao-grama {
-    background-color: #49D0B0;
+.respiracao-insetos {
+    background-color: #18c63bcd;
 }
 
-.respiracao-trevas {
-    background-color: #BA68C8;
+.respiracao-demon {
+    background-color: #40054be3;
 }
 
-.respiracao-fada {
-    background-color: #C29791;
+.respiracao-nevoa {
+    background-color: #95f1dec8;
+}
+
+.respiracao-fera {
+    background-color: #f15000e4;
+}
+
+.respiracao-serpente {
+    background-color: #618464e3;
 }
 
 .listagem {
@@ -169,7 +179,7 @@ main {
 }
 
 .listagem .personagem.ativo {
-    background-color: #640966f2;
+    background-color: #5b055cf9;
     box-shadow: rgba(255, 255, 255, 0.759) 0px 3px 8px;
 }
 
