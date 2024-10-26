@@ -15,20 +15,20 @@ listaSelecaoPersonagens.forEach((personagem) => {
 
         // PASSO 4 - ao clicar em um personagem da lista pegamos o id desse personagem para saber qual cartão abrir
         const idPersonagemSelecionado = personagem.attributes.id.value;
-        const idCartaoPersonagemParaAbrir = "cartao" + idPersonagemSelecionado;
+        const idCartaoPersonagemParaAbrir = "cartao-" + idPersonagemSelecionado;
         const cartaoPersonagemParaAbrir = document.getElementById(idCartaoPersonagemParaAbrir);
 
         cartaoPersonagemParaAbrir.classList.add("aberto");
-        return idPersonagemSelecionado;
+        // return idPersonagemSelecionado;
 
         // PASSO 5 - remover a classe ativo que marca o pokedev selecionado na listagem
         const personagemAtivoNaListagem = document.querySelector(".ativo");
         personagemAtivoNaListagem.classList.remove("ativo");
 
         // PASSO 6 - adicinar a classe ativo no pokedev selecionado na listagem
-        const idPersonagemSelecionadoNaListagem = document.getElementById(idPersonagemSelecionado);
-        idPersonagemSelecionadoNaListagem.classList.add("ativo");
+        const personagemSelecionadoNaListagem = document.getElementById(idPersonagemSelecionado);
+        personagemSelecionadoNaListagem.classList.add("ativo");
 
-        ativarPersonagemSelecionadoNaListaidPo(idPersonagemSelecionado);
+        ativarPersonagemSelecionadoNaListagem(idPersonagemSelecionado);
     });
 });
