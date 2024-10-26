@@ -10,7 +10,7 @@ listaSelecaoPersonagens.forEach((personagem) => {
     personagem.addEventListener("click", () => {
         
         // PASSO 3 - remover a classe aberto só do cartão que tá aberto
-        const cartaoPersonagemAberto = querySelectorAll(".aberto");
+        const cartaoPersonagemAberto = document.querySelector(".aberto");
         cartaoPersonagemAberto.classList.remove("aberto");
 
         // PASSO 4 - ao clicar em um personagem da lista pegamos o id desse personagem para saber qual cartão abrir
@@ -29,6 +29,5 @@ listaSelecaoPersonagens.forEach((personagem) => {
         const personagemSelecionadoNaListagem = document.getElementById(idPersonagemSelecionado);
         personagemSelecionadoNaListagem.classList.add("ativo");
 
-        ativarPersonagemSelecionadoNaListagem(idPersonagemSelecionado);
     });
 });
