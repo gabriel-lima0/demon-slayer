@@ -43,16 +43,25 @@ main {
     display: block;
 }
 
+.cartao-personagem .cartao-topo .cartao-imagem img {
+    display: flex;
+    justify-items: center;
+    background-color: yellow;
+    
+}
+
+
 .cartao-personagem img {
-    width: 100%;
-    max-height: 400px;
+    /* width: 300px; */
+    max-height: 300px;
     margin-top: -20px;
-    /* align-content: center; */
+    align-content: center;
     
 }
 
 .cartao-personagem .cartao-topo {
     padding: 30px 40px 0px;
+    
 }
 
 .cartao-personagem .nome {
@@ -140,10 +149,9 @@ main {
 }
 
 .listagem .personagem img{
-    /* background-size: contain;
-    width: 70%;
-    max-height: 20px;
-    width: 100%;               /* A imagem vai ocupar a largura do container */
+    background-size: contain;
+    width: 70%;                 /* A imagem vai ocupar a largura do container */
+    max-height: 200px;               
     max-width: 100px;           /* Limitar a largura a 100px */
     height: auto;               /* Manter a proporção da altura */
     max-height: 60px;          /* Limitar a altura máxima */
